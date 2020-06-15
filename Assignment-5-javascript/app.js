@@ -297,6 +297,85 @@
 
 
 
-// *****************CHAPTER 6***********
+// *****************CHAPTER 6 to 9***********
 
 //Task-1
+// var a=10;
+// document.write("Result:<br>");
+// document.write("The value of a is: "+(a)+"<br><br>");
+
+
+// document.write("The value of ++a is: "+(++a)+"<br>");
+// document.write("Now the value of a is: "+a+"<br><br>");
+
+// document.write("The value of a++ is: "+(a++)+"<br>");
+// document.write("Now the value of a is: "+a+"<br><br>");
+
+// document.write("The value of --a is: "+(--a)+"<br>");
+// document.write("Now the value of a is: "+a+"<br><br>");
+
+// document.write("The value of a-- is: "+(a--)+"<br>");
+// document.write("Now the value of a is: "+a+"<br><br>");
+
+//Task-2
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+
+// document.write("a is "+a+"<br>");
+// document.write("b is "+b+"<br>");
+// document.write("Result: "+result+"<br>");
+// document.write("The answer will be the 3 beacuse first a will decrement and then b will decrement then both will subtract answer is 1-0=1 then b will increment b=1 then add with previous answer 1+1=2 then b will post decrement and then add with previous answer post decrement so still b=1 then 2+1=3 <br><br>");
+
+
+//Task3
+// var name=prompt("Enter your full name");
+// alert("Welcome "+name+", to our website");
+
+//Task-4
+//not shown
+
+//Task-5
+// n=+prompt("Enter a number for a table: ");
+// var c=0;
+// if(n==0){
+// for(var i=1; i<=10; i++){
+//     c=5*i;
+//     document.write(5+" x "+i+" = "+c+"<br>");
+// }
+// }
+// else{
+//     for(var i=1; i<=10; i++){
+//         c=n*i;
+//         document.write(n+" x "+i+" = "+c+"<br>");
+// }
+// }
+
+
+//Task-6
+// var sub1=prompt("Enter first subject name:");
+// var sub2=prompt("Enter second subject name:");
+// var sub3=prompt("Enter third subject name:");
+// var total_marks_sub1=100;
+// var total_marks_sub2=100;
+// var total_marks_sub3=100;
+// var ob_marks_sub1=+prompt("Enter obtained marks for first subject:");
+// var ob_marks_sub2=+prompt("Enter obtained marks for second subject:");
+// var ob_marks_sub3=+prompt("Enter obtained marks for third subject:");
+
+// var total_marks=total_marks_sub1+total_marks_sub2+total_marks_sub3;
+// var marks_obtained=ob_marks_sub1+ob_marks_sub2+ob_marks_sub3;
+// var percentage_sub1=(ob_marks_sub1*total_marks_sub1)/100;
+// var percentage_sub2=(ob_marks_sub2*total_marks_sub2)/100;
+// var percentage_sub3=(ob_marks_sub3*total_marks_sub3)/100;
+// var percentage=((percentage_sub1+percentage_sub2+percentage_sub3)*100)/300;
+// document.write("<b>Subject &nbsp; Total marks &nbsp; Obtained marks &nbsp; Percentage</b>"+"<br>");
+// document.write(sub1+" &nbsp;&nbsp;&nbsp; "+total_marks_sub1+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+ob_marks_sub1+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+percentage_sub1+"%"+"<br>");
+// document.write(sub2+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+total_marks_sub2+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+ob_marks_sub2+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+percentage_sub2+"%"+"<br>");
+// document.write(sub3+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+total_marks_sub3+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+ob_marks_sub3+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+percentage_sub3+"%"+"<br>");
+// document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+total_marks+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+marks_obtained+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+percentage+"%"+"<br>");
+
+
+// **************CHAPTER 9 TO 11********************
+
+
+
